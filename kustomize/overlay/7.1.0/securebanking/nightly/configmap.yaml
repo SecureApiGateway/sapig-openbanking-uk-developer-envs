@@ -12,3 +12,4 @@ data:
   IDENTITY_PLATFORM_FQDN: openam-forgerock-securebankingaccelerato.forgeblocks.com
   USER_OBJECT: alpha_user
   IDENTITY_DEFAULT_USER_AUTHENTICATION_SERVICE: PasswordGrant
+  IDENTITY_GOOGLE_SECRET_STORES_NAME: ESV
