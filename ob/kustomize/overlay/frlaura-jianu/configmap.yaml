@@ -7,4 +7,4 @@ data:
   IG_FQDN: "sapig.frlaura-jianu-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.frlaura-jianu-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.frlaura-jianu-ob.forgerock.financial"
-  TRUSTEDDIR_FQDN: "sapig.frlaura-jianu-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.frlaura-jianu-ob.forgerock.financial"

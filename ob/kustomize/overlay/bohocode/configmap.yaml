@@ -7,4 +7,4 @@ data:
   IG_FQDN: "sapig.bohocode-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.bohocode-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.bohocode-ob.forgerock.financial"
-  TRUSTEDDIR_FQDN: "sapig.bohocode-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.bohocode-ob.forgerock.financial"

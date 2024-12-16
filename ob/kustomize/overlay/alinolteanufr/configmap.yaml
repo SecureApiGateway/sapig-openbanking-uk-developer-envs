@@ -7,4 +7,4 @@ data:
   IG_FQDN: "sapig.alinolteanufr-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.alinolteanufr-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.alinolteanufr-ob.forgerock.financial"
-  TRUSTEDDIR_FQDN: "sapig.alinolteanufr-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.alinolteanufr-ob.forgerock.financial"

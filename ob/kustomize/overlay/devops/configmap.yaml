@@ -7,6 +7,6 @@ data:
   IG_FQDN: "sapig.devops-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.devops-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.devops-ob.forgerock.financial"
-  TRUSTEDDIR_FQDN: "sapig.devops-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.devops-ob.forgerock.financial"
   OB_ASPSP_SOFTWARE_ID: "gYcVCmFmzItBTxM4Y1cPn2"
   IG_OB_ASPSP_SIGNING_KID: "KT85P5YZolPsbGVmHIOCm-KgRT0"

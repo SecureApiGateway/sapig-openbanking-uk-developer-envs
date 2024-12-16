@@ -7,4 +7,4 @@ data:
   IG_FQDN: "sapig.dev-cdk-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.dev-cdk-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.dev-cdk-ob.forgerock.financial"
-  TRUSTEDDIR_FQDN: "sapig.dev-cdk-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.dev-cdk-ob.forgerock.financial"

@@ -24,6 +24,5 @@ patches:
     path: patch/configmap/core-configmap-patch.yaml
 resources:
   - https://github.com/SecureApiGateway/sapig-openbanking-uk-developer-envs/core/kustomize/overlay/defaults?ref=master
-  - ingress.yaml
 secretGenerator:
 - name: ob-secrets

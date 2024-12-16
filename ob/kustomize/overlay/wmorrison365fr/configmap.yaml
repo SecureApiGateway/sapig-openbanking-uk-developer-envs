@@ -7,4 +7,4 @@ data:
   IG_FQDN: "sapig.wmorrison365fr-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.wmorrison365fr-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.wmorrison365fr-ob.forgerock.financial"
-  TRUSTEDDIR_FQDN: "sapig.wmorrison365fr-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.wmorrison365fr-ob.forgerock.financial"

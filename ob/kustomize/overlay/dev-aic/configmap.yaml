@@ -8,7 +8,7 @@ data:
   IG_FQDN: "sapig.dev-aic-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.dev-aic-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "openam-sapig-nightly.forgeblocks.com"
-  TRUSTEDDIR_FQDN: "sapig.dev-aic-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.dev-aic-ob.forgerock.financial"
   USER_OBJECT: "alpha_user"
   IDENTITY_DEFAULT_USER_AUTHENTICATION_SERVICE: "PasswordGrant"
   IDENTITY_GOOGLE_SECRET_STORE_NAME: "ESV"

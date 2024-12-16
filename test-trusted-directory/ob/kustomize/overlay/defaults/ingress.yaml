@@ -24,7 +24,7 @@ spec:
         paths:
           - backend:
               service:
-                name: ig
+                name: test-trusted-directory
                 port:
                   number: 80
             path: /jwkms/
@@ -32,4 +32,4 @@ spec:
   tls:
     - hosts:
         - FQDN_PLACEHOLDER
-      secretName: sapig-tls-cert
+      secretName: ttd-tls-cert

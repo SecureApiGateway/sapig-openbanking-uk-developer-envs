@@ -7,4 +7,4 @@ data:
   IG_FQDN: "sapig.mariantiris-ob.forgerock.financial"
   MTLS_FQDN: "mtls.sapig.mariantiris-ob.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.mariantiris-ob.forgerock.financial"
-  TRUSTEDDIR_FQDN: "sapig.mariantiris-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.mariantiris-ob.forgerock.financial"
