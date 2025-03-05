@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-trusted-directory-config
+data:
+  TRUSTEDDIR_FQDN: "test-trusted-directory.guillaumelamirandping-ob.forgerock.financial"
