@@ -1,4 +1,4 @@
-namespace: guillaumelamirandping-ob
+namespace: guillaumelamirand-ob
 patches:
   - path: core/configmap.yaml
   - path: testtrusteddir/configmap.yaml
