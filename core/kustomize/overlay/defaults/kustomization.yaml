@@ -9,7 +9,7 @@ labels:
 images:
   - name: ig
     newName: gcr.io/forgerock-io/ig/pull-requests
-    newTag: 2024.11.1-PR-6672-latest-build
+    newTag: 2025.3.0-PR-6442-latest-build-fapi
   - name: testdirectory
     newName: europe-west4-docker.pkg.dev/sbat-gcr-develop/sapig-docker-artifact/securebanking/sapig-test-trusted-directory
     newTag: latest
