@@ -79,8 +79,7 @@ replacements:
           name: mtls
           version: v1
 resources:
-  # Todo - revert to master
-  - https://github.com/SecureApiGateway/secure-api-gateway-ob-uk/_infra/kustomize/base?ref=1670-move-kustomize-base-files
+  - https://github.com/SecureApiGateway/secure-api-gateway-ob-uk/_infra/kustomize/base?ref=master
 replicas:
   - name: ig
     count: 1

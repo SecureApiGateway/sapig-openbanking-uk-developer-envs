@@ -45,8 +45,7 @@ replacements:
           name: test-trusted-directory
           version: v1
 resources:
-  # todo - revert to main
-  - https://github.com/SecureApiGateway/secure-api-gateway-test-trusted-directory/_infra/kustomize/base?ref=1670-move-kustomize-base-files
+  - https://github.com/SecureApiGateway/secure-api-gateway-test-trusted-directory/_infra/kustomize/base?ref=main
 replicas:
   - name: test-trusted-directory
     count: 1
