@@ -1,0 +1,51 @@
+generatorOptions:
+  disableNameSuffixHash: true
+images:
+  - name: testdirectory
+    newName:  europe-west4-docker.pkg.dev/sbat-gcr-develop/sapig-docker-artifact/securebanking/sapig-test-trusted-directory
+    newTag:  latest
+namespace: frlaura-jianu-ob
+patches:
+  - path: configmap.yaml
+  - path: secret.yaml
+replacements:
+  - source:
+      fieldPath: data.TRUSTEDDIR_FQDN
+      kind: ConfigMap
+      name: test-trusted-directory-config
+      version: v1
+    targets:
+      - fieldPaths:
+          - spec.rules.0.host
+        select:
+          group: networking.k8s.io
+          kind: Ingress
+          name: test-trusted-directory
+          version: v1
+      - fieldPaths:
+          - spec.tls.0.hosts.0
+        select:
+          group: networking.k8s.io
+          kind: Ingress
+          name: test-trusted-directory
+          version: v1
+  - source:
+      fieldPath: metadata.namespace
+      kind: ConfigMap
+      name: test-trusted-directory-config
+      version: v1
+    targets:
+      - fieldPaths:
+          - metadata.annotations.[nginx.ingress.kubernetes.io/auth-tls-secret]
+        options:
+          delimiter: /
+        select:
+          group: networking.k8s.io
+          kind: Ingress
+          name: test-trusted-directory
+          version: v1
+resources:
+  - https://github.com/SecureApiGateway/secure-api-gateway-test-trusted-directory/_infra/kustomize/base?ref=main
+replicas:
+  - name: test-trusted-directory
+    count: 1

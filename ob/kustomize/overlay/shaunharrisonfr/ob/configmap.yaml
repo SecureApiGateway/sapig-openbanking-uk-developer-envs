@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: core-deployment-config
+data:
+  BASE_FQDN: "shaunharrisonfr-ob.forgerock.financial"
+  IG_FQDN: "sapig.shaunharrisonfr-ob.forgerock.financial"
+  MTLS_FQDN: "mtls.sapig.shaunharrisonfr-ob.forgerock.financial"
+  IDENTITY_PLATFORM_FQDN: "iam.shaunharrisonfr-ob.forgerock.financial"
+  TRUSTEDDIR_FQDN: "test-trusted-directory.shaunharrisonfr-ob.forgerock.financial"
+  SAPIG_TYPE: "ob"
