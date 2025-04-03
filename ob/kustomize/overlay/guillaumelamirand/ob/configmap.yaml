@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: core-deployment-config
+  name: ob-deployment-config
 data:
   BASE_FQDN: "guillaumelamirand-ob.forgerock.financial"
   IG_FQDN: "sapig.guillaumelamirand-ob.forgerock.financial"

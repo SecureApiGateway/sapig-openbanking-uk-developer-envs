@@ -12,7 +12,7 @@ replacements:
   - source:
       fieldPath: data.IG_FQDN
       kind: ConfigMap
-      name: core-deployment-config
+      name: ob-deployment-config
       version: v1
     targets:
       - fieldPaths:
@@ -46,7 +46,7 @@ replacements:
   - source:
       fieldPath: data.MTLS_FQDN
       kind: ConfigMap
-      name: core-deployment-config
+      name: ob-deployment-config
       version: v1
     targets:
       - fieldPaths:
@@ -66,7 +66,7 @@ replacements:
   - source:
       fieldPath: metadata.namespace
       kind: ConfigMap
-      name: core-deployment-config
+      name: ob-deployment-config
       version: v1
     targets:
       - fieldPaths:
