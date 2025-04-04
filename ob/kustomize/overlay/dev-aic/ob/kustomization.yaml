@@ -1,9 +1,5 @@
 generatorOptions:
   disableNameSuffixHash: true
-images:
-  - name: ig
-    newName:  europe-west4-docker.pkg.dev/sbat-gcr-develop/sapig-docker-artifact/securebanking/ig
-    newTag:  latest
 namespace: dev-aic-ob
 patches:
   - path: configmap.yaml
