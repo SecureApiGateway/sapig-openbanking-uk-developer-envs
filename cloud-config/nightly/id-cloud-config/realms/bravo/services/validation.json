@@ -8,6 +8,6 @@
   },
   "validGotoDestinations": [
     "&{am.server.protocol|https}://&{fqdn}/*?*",
-    "&{esv.sapig.core.baseurl}/am/*?*"
+    "&{esv.sapig.core.as.baseurl}/am/*?*"
   ]
 }

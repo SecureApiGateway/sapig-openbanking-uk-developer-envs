@@ -8,8 +8,9 @@
   },
   "advancedOAuth2Config": {
     "allowedAudienceValues": [
-      "&{esv.sapig.core.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token",
-      "&{esv.sapig.core.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token"
+      "&{esv.sapig.core.as.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token",
+      "&{esv.sapig.core.as.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token",
+      "&{esv.sapig.core.as.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/par"
     ],
     "authenticationAttributes": [
       "uid"
@@ -200,7 +201,53 @@
   },
   "consent": {
     "clientsCanSkipConsent": false,
-    "enableRemoteConsent": false
+    "enableRemoteConsent": false,
+    "supportedRcsRequestEncryptionAlgorithms": [
+      "ECDH-ES+A256KW",
+      "ECDH-ES+A192KW",
+      "RSA-OAEP",
+      "ECDH-ES+A128KW",
+      "RSA-OAEP-256",
+      "A128KW",
+      "A256KW",
+      "ECDH-ES",
+      "dir",
+      "A192KW"
+    ],
+    "supportedRcsRequestEncryptionMethods": [
+      "A256GCM",
+      "A192GCM",
+      "A128GCM",
+      "A128CBC-HS256",
+      "A192CBC-HS384",
+      "A256CBC-HS512"
+    ],
+    "supportedRcsRequestSigningAlgorithms": [
+      "PS256"
+    ],
+    "supportedRcsResponseEncryptionAlgorithms": [
+      "ECDH-ES+A256KW",
+      "ECDH-ES+A192KW",
+      "ECDH-ES+A128KW",
+      "RSA-OAEP",
+      "RSA-OAEP-256",
+      "A128KW",
+      "A256KW",
+      "ECDH-ES",
+      "dir",
+      "A192KW"
+    ],
+    "supportedRcsResponseEncryptionMethods": [
+      "A256GCM",
+      "A192GCM",
+      "A128GCM",
+      "A128CBC-HS256",
+      "A192CBC-HS384",
+      "A256CBC-HS512"
+    ],
+    "supportedRcsResponseSigningAlgorithms": [
+      "PS256"
+    ]
   },
   "coreOAuth2Config": {
     "accessTokenLifetime": 360000,
