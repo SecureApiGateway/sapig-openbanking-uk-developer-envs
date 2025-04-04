@@ -3,8 +3,14 @@ kind: ConfigMap
 metadata:
   name: as-sapig-deployment-config
 data:
+  AM_REALM: "bravo"
   AS_FQDN: "as-sapig.dev-aic-core.forgerock.financial"
   AS_MTLS_FQDN: "mtls.sapig.dev-aic-core.forgerock.financial"
   BASE_FQDN: "dev-aic-core.forgerock.financial"
+  CLOUD_TYPE: "FIDC"
   IDENTITY_PLATFORM_FQDN: "openam-sapig-nightly.forgeblocks.com"
+  IDENTITY_DEFAULT_USER_AUTHENTICATION_SERVICE: "PasswordGrant"
+  IDENTITY_GOOGLE_SECRET_STORE_NAME: "ESV"
+  IDENTITY_GOOGLE_SECRET_STORE_OAUTH2_CA_CERTS_SECRET_NAME: "esv-sapig-core-am-oauth2-ca-certs"
   TRUSTEDDIR_FQDN: "test-trusted-directory.dev-aic-core.forgerock.financial"
+  USER_OBJECT: "bravo_user"
