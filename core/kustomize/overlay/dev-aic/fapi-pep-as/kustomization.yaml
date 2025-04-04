@@ -7,7 +7,7 @@ patches:
 - target:
     version: v1
     kind: Ingress
-    name: mtls
+    name: as-mtls
   path: patch/ingress/mtls-ingress-patch.yaml
 replacements:
   - source:
