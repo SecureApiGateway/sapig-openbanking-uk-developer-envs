@@ -49,3 +49,7 @@ resources:
 replicas:
   - name: test-trusted-directory
     count: 1
+secretGenerator:
+  - name: mtls-ca-certs
+    files:
+      - ca.crt
