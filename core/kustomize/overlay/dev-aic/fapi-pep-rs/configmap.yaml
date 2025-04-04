@@ -4,7 +4,7 @@ metadata:
   name: rs-sapig-deployment-config
 data:
   BASE_FQDN: "dev-aic-core.forgerock.financial"
-  IDENTITY_PLATFORM_FQDN: "iam.dev-aic-core.forgerock.financial"
+  IDENTITY_PLATFORM_FQDN: "openam-sapig-nightly.forgeblocks.com"
   AS_FQDN: "as-sapig.dev-aic-core.forgerock.financial"
   RS_FQDN: "rs-sapig.dev-aic-core.forgerock.financial"
   TRUSTEDDIR_FQDN: "test-trusted-directory.dev-aic-core.forgerock.financial"
