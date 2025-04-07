@@ -5,7 +5,7 @@ metadata:
 data:
   AM_REALM: "bravo"
   AS_FQDN: "as-sapig.dev-aic-core.forgerock.financial"
-  AS_MTLS_FQDN: "mtls.sapig.dev-aic-core.forgerock.financial"
+  AS_MTLS_FQDN: "as-mtls.sapig.dev-aic-core.forgerock.financial"
   BASE_FQDN: "dev-aic-core.forgerock.financial"
   CLOUD_TYPE: "FIDC"
   IDENTITY_PLATFORM_FQDN: "openam-sapig-nightly.forgeblocks.com"
