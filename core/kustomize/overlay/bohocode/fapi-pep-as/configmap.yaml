@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: core-deployment-config
+  name: as-sapig-deployment-config
 data:
   AS_FQDN: "as-sapig.bohocode-core.forgerock.financial"
   AS_MTLS_FQDN: "as-mtls.sapig.bohocode-core.forgerock.financial"
