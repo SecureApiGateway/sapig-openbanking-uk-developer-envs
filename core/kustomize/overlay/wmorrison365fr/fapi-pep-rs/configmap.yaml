@@ -7,4 +7,5 @@ data:
   IDENTITY_PLATFORM_FQDN: "iam.wmorrison365fr-core.forgerock.financial"
   AS_FQDN: "as-sapig.wmorrison365fr-core.forgerock.financial"
   RS_FQDN: "rs-sapig.wmorrison365fr-core.forgerock.financial"
+  RS_MTLS_FQDN: "rs-mtls.sapig.wmorrison365fr.forgerock.financial"
   TRUSTEDDIR_FQDN: "test-trusted-directory.wmorrison365fr-core.forgerock.financial"

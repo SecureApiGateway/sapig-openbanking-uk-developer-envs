@@ -4,7 +4,7 @@ metadata:
   name: as-sapig-deployment-config
 data:
   AS_FQDN: "as-sapig.guillaumelamirand-core.forgerock.financial"
-  AS_MTLS_FQDN: "mtls.sapig.guillaumelamirand-core.forgerock.financial"
+  AS_MTLS_FQDN: "as-mtls.sapig.guillaumelamirand-core.forgerock.financial"
   BASE_FQDN: "guillaumelamirand-core.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.guillaumelamirand-core.forgerock.financial"
   TRUSTEDDIR_FQDN: "test-trusted-directory.guillaumelamirand-core.forgerock.financial"

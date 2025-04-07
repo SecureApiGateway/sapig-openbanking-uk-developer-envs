@@ -4,7 +4,7 @@ metadata:
   name: core-deployment-config
 data:
   AS_FQDN: "as-sapig.bohocode-core.forgerock.financial"
-  AS_MTLS_FQDN: "mtls.sapig.bohocode-core.forgerock.financial"
+  AS_MTLS_FQDN: "as-mtls.sapig.bohocode-core.forgerock.financial"
   BASE_FQDN: "bohocode-core.forgerock.financial"
   IDENTITY_PLATFORM_FQDN: "iam.bohocode-core.forgerock.financial"
   TRUSTEDDIR_FQDN: "test-trusted-directory.bohocode-core.forgerock.financial"

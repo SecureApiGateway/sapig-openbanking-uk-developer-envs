@@ -7,4 +7,5 @@ data:
   IDENTITY_PLATFORM_FQDN: "iam.guillaumelamirand-core.forgerock.financial"
   AS_FQDN: "as-sapig.guillaumelamirand-core.forgerock.financial"
   RS_FQDN: "rs-sapig.guillaumelamirand-core.forgerock.financial"
+  RS_MTLS_FQDN: "rs-mtls.sapig.guillaumelamirand-core.forgerock.financial"
   TRUSTEDDIR_FQDN: "test-trusted-directory.guillaumelamirand-core.forgerock.financial"
