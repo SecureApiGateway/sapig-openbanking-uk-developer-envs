@@ -8,9 +8,9 @@
   },
   "advancedOAuth2Config": {
     "allowedAudienceValues": [
-      "&{esv.sapig.core.as.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token",
-      "&{esv.sapig.core.as.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token",
-      "&{esv.sapig.core.as.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/par"
+      "&{esv.sapig.ob.as.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.ob.identity.cloud.realm}/access_token",
+      "&{esv.sapig.ob.as.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.ob.identity.cloud.realm}/access_token",
+      "&{esv.sapig.ob.as.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.ob.identity.cloud.realm}/par"
     ],
     "authenticationAttributes": [
       "uid"
