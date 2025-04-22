@@ -7,6 +7,6 @@
     "name": "Base URL Source"
   },
   "contextPath": "/am",
-  "fixedValue": "&{esv.sapig.ob.baseurl}",
+  "fixedValue": "&{esv.sapig.ob.as.baseurl}",
   "source": "FIXED_VALUE"
 }

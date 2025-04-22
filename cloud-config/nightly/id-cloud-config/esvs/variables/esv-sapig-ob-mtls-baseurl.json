@@ -1,6 +1,0 @@
-{
-  "_id": "esv-sapig-ob-mtls-baseurl",
-  "description": "",
-  "expressionType": "string",
-  "valueBase64": "${ESV_SAPIG_OB_MTLS_BASEURL}"
-}
