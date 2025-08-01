@@ -9,17 +9,96 @@
     },
     "enabled": true
   },
-  "corsServices": [],
+  "corsServices": [
+    {
+      "_id": "login-ui-cors",
+      "_type": {
+        "_id": "configuration",
+        "collection": true,
+        "name": "Cors Configuration"
+      },
+      "acceptedHeaders": [
+        "Accept",
+        "accept-api-version",
+        "Referer",
+        "sec-ch-ua",
+        "sec-ch-ua-moblie",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "iPlanetDirectoryPro",
+        "Content-Type",
+        "authority",
+        "method",
+        "path",
+        "scheme",
+        "accept",
+        "accept-encoding",
+        "accept-language",
+        "referer",
+        "sec-fetch-dest",
+        "sec-fetch-mode",
+        "sec-fetch-site",
+        "user-agent",
+        "cookie",
+        "sec-fetch-user",
+        "upgrade-insecure-requests",
+        "authorization",
+        "x-requested-with",
+        "x-forgerock-transactionid"
+      ],
+      "acceptedMethods": [
+        "POST",
+        "PUT",
+        "GET",
+        "DELETE",
+        "PATCH",
+        "FETCH",
+        "OPTIONS"
+      ],
+      "acceptedOrigins": {
+        "$list": "&{esv.cors.accepted.origins}"
+      },
+      "allowCredentials": true,
+      "enabled": true,
+      "exposedHeaders": [
+        "Cache-Control",
+        "Content-Language",
+        "Expires",
+        "Last-Modified",
+        "Pragma",
+        "Content-Type",
+        "cache-control",
+        "content-api-version",
+        "content-length",
+        "date",
+        "etag",
+        "expires",
+        "pragma",
+        "set-cookie",
+        "strict-transport-security",
+        "x-content-type-options",
+        "x-forgerock-transactionid",
+        "x-frame-options",
+        "Access-Control-Allow-Origin"
+      ],
+      "maxAge": 0
+    }
+  ],
   "idmCorsConfig": {
     "_id": "servletfilter/cors",
+    "classPathURLs": [],
+    "filterClass": "org.eclipse.jetty.servlets.CrossOriginFilter",
     "initParams": {
       "allowCredentials": false,
-      "allowedHeaders": "authorization,accept,content-type,origin,x-requested-with,cache-control,accept-api-version,if-match,if-none-match",
+      "allowedHeaders": "authorization,accept,content-type,origin,x-requested-with,cache-control,accept-api-version",
       "allowedMethods": "GET,POST,PUT,DELETE,PATCH",
       "allowedOrigins": "*",
       "chainPreflight": false,
       "exposedHeaders": "WWW-Authenticate"
     },
+    "requestAttributes": {},
+    "scriptExtensions": {},
+    "systemProperties": {},
     "urlPatterns": [
       "/*"
     ]
