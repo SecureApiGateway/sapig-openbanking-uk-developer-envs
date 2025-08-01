@@ -1,0 +1,62 @@
+{
+  "alpha_role": [],
+  "alpha_user": [
+    {
+      "fields": [
+        "userName",
+        "givenName",
+        "sn",
+        "mail",
+        "authzRoles"
+      ],
+      "overrides": {
+        "password": "${ESV_SAPIG_OB_IG_IDM_ADMIN_PASSWORD_1}"
+      },
+      "searchField": "userName",
+      "searchValue": "service_account.ig"
+    },
+    {
+      "fields": [
+        "userName",
+        "givenName",
+        "sn",
+        "mail"
+      ],
+      "overrides": {
+        "password": "${ESV_PSU4TEST_PASSWORD}"
+      },
+      "searchField": "userName",
+      "searchValue": "psu4test"
+    }
+  ],
+  "bravo_role": [],
+  "bravo_user": [
+    {
+      "fields": [
+        "userName",
+        "givenName",
+        "sn",
+        "mail",
+        "authzRoles"
+      ],
+      "overrides": {
+        "password": "${ESV_SAPIG_CORE_IG_IDM_ADMIN_PASSWORD_1}"
+      },
+      "searchField": "userName",
+      "searchValue": "service_account.ig"
+    },
+    {
+      "fields": [
+        "userName",
+        "givenName",
+        "sn",
+        "mail"
+      ],
+      "overrides": {
+        "password": "${ESV_PSU4TEST_PASSWORD}"
+      },
+      "searchField": "userName",
+      "searchValue": "psu4test"
+    }
+  ]
+}
