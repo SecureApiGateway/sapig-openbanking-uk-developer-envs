@@ -1,1 +1,0 @@
-Files current_config/cookie-domains/cookie-domains.json and ../repo_config/cookie-domains/cookie-domains.json differ
