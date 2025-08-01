@@ -1,0 +1,95 @@
+{
+  "alpha": {
+    "IdentityGatewayAgent": [
+      {
+        "id": [
+          "ig-agent"
+        ],
+        "overrides": {
+          "userpassword": "&{esv.sapig.ob.ig.agent.password}"
+        }
+      }
+    ],
+    "OAuth2Client": [
+      {
+        "id": [
+          "ig-client"
+        ],
+        "overrides": {
+          "coreOAuth2ClientConfig": {
+            "userpassword": "&{esv.sapig.ob.ig.client.password}"
+          }
+        }
+      }
+    ],
+    "RemoteConsentAgent": [
+      {
+        "id": [
+          "secure-open-banking-rcs"
+        ],
+        "overrides": {
+          "jwkSet": {
+            "value": "&{esv.sapig.ob.rcs.jwks}"
+          },
+          "remoteConsentRedirectUrl": {
+            "value": "&{esv.sapig.ob.baseurl}/rcs/ui/consent"
+          }
+        }
+      }
+    ],
+    "SoftwarePublisher": [
+      {
+        "id": "Open Banking Test Directory"
+      },
+      {
+        "id": [
+          "Secure API Gateway Development Trusted Directory"
+        ],
+        "overrides": {
+          "jwksUri": {
+            "value": "&{esv.sapig.ob.trusteddirurl}/jwkms/testdirectory/jwks"
+          }
+        }
+      }
+    ]
+  },
+  "bravo": {
+    "IdentityGatewayAgent": [
+      {
+        "id": [
+          "ig-agent"
+        ],
+        "overrides": {
+          "userpassword": "&{esv.sapig.core.ig.agent.password}"
+        }
+      }
+    ],
+    "OAuth2Client": [
+      {
+        "id": [
+          "ig-client"
+        ],
+        "overrides": {
+          "coreOAuth2ClientConfig": {
+            "userpassword": "&{esv.sapig.core.ig.client.password}"
+          }
+        }
+      }
+    ],
+    "SoftwarePublisher": [
+      {
+        "id": "Open Banking Test Directory"
+      },
+      {
+        "id": [
+          "Secure API Gateway Development Trusted Directory"
+        ],
+        "overrides": {
+          "jwksUri": {
+            "value": "&{esv.sapig.core.trusteddirurl}/jwkms/testdirectory/jwks"
+          }
+        }
+      }
+    ]
+  }
+}
