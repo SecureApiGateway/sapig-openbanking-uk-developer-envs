@@ -1,0 +1,37 @@
+{
+  "_id": "Secure API Gateway Development Trusted Directory",
+  "_rev": "-991743971",
+  "_type": {
+    "_id": "SoftwarePublisher",
+    "collection": true,
+    "name": "OAuth2 Software Publisher"
+  },
+  "issuer": {
+    "inherited": false,
+    "value": "test-publisher"
+  },
+  "jwkSet": {
+    "inherited": false
+  },
+  "jwkStoreCacheMissCacheTime": {
+    "inherited": false,
+    "value": 60000
+  },
+  "jwksCacheTimeout": {
+    "inherited": false,
+    "value": 3600000
+  },
+  "jwksUri": {
+    "inherited": false,
+    "value": "&{esv.sapig.core.trusteddirurl}/jwkms/testdirectory/jwks"
+  },
+  "publicKeyLocation": {
+    "inherited": false,
+    "value": "jwks_uri"
+  },
+  "softwareStatementSigningAlgorithm": {
+    "inherited": false,
+    "value": "PS256"
+  },
+  "userpassword": null
+}

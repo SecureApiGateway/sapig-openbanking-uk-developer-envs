@@ -1,0 +1,191 @@
+{
+  "iconClass": "fa fa-database",
+  "name": "apiClient",
+  "onRead": {
+    "globals": {},
+    "source": "if (object.softwareId == null) {\n  object.softwareId = object.id\n}",
+    "type": "text/javascript"
+  },
+  "schema": {
+    "$schema": "http://forgerock.org/json-schema#",
+    "description": "Secure Banking apiClient",
+    "icon": "fa-cogs",
+    "mat-icon": null,
+    "order": [
+      "_id",
+      "softwareId",
+      "name",
+      "description",
+      "deleted",
+      "logoUri",
+      "jwksUri",
+      "ssa",
+      "apiClientOrg",
+      "oauth2ClientId"
+    ],
+    "properties": {
+      "_id": {
+        "deleteQueryConfig": false,
+        "description": null,
+        "isVirtual": false,
+        "searchable": true,
+        "title": "IDM Internal ID",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "apiClientOrg": {
+        "deleteQueryConfig": false,
+        "description": null,
+        "isVirtual": false,
+        "notifySelf": false,
+        "properties": {
+          "_ref": {
+            "type": "string"
+          },
+          "_refProperties": {
+            "properties": {
+              "_id": {
+                "propName": "_id",
+                "required": false,
+                "type": "string"
+              }
+            },
+            "type": "object"
+          }
+        },
+        "referencedObjectFields": null,
+        "referencedRelationshipFields": null,
+        "requiredByParent": false,
+        "resourceCollection": [
+          {
+            "label": "apiClientorg",
+            "notify": false,
+            "path": "managed/apiClientOrg",
+            "query": {
+              "fields": [
+                "id",
+                "name"
+              ],
+              "queryFilter": "true",
+              "sortKeys": []
+            }
+          }
+        ],
+        "returnByDefault": false,
+        "reversePropertyName": "apiClients",
+        "reverseRelationship": true,
+        "searchable": false,
+        "title": "API Client Organisation",
+        "type": "relationship",
+        "userEditable": false,
+        "validate": false,
+        "viewable": true
+      },
+      "deleted": {
+        "default": false,
+        "description": "Has the ApiClient record been deleted",
+        "isVirtual": false,
+        "searchable": true,
+        "title": "Deleted",
+        "type": "boolean",
+        "userEditable": true,
+        "viewable": true
+      },
+      "description": {
+        "searchable": true,
+        "title": "Description",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "id": {
+        "deleteQueryConfig": false,
+        "description": null,
+        "isVirtual": false,
+        "searchable": true,
+        "title": "API Client ID",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "jwks": {
+        "searchable": false,
+        "title": "JWK Set",
+        "type": "object",
+        "userEditable": false,
+        "viewable": true
+      },
+      "jwksUri": {
+        "searchable": true,
+        "title": "JWKS URI",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "logoUri": {
+        "searchable": true,
+        "title": "Logo URI",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "name": {
+        "searchable": true,
+        "title": "API Client Name",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "oauth2ClientId": {
+        "deleteQueryConfig": false,
+        "description": "OAuth2 Client ID",
+        "isVirtual": false,
+        "searchable": true,
+        "title": "OAuth2 Client ID",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "roles": {
+        "items": {
+          "type": "string"
+        },
+        "searchable": false,
+        "title": "Roles",
+        "type": "array",
+        "userEditable": true,
+        "viewable": true
+      },
+      "softwareId": {
+        "deleteQueryConfig": false,
+        "description": null,
+        "isVirtual": false,
+        "searchable": true,
+        "title": "Software ID",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "ssa": {
+        "description": null,
+        "isVirtual": false,
+        "minLength": null,
+        "searchable": true,
+        "title": "Software Statement Assertion",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      }
+    },
+    "required": [
+      "name",
+      "oauth2ClientId",
+      "ssa",
+      "deleted"
+    ],
+    "title": "apiClient",
+    "type": "object"
+  },
+  "type": "Managed Object"
+}

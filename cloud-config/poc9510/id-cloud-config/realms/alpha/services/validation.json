@@ -1,12 +1,13 @@
 {
   "_id": "",
-  "_rev": "896681690",
+  "_rev": "-1211374045",
   "_type": {
     "_id": "validation",
     "collection": false,
     "name": "Validation Service"
   },
   "validGotoDestinations": [
-    "&{am.server.protocol|https}://&{fqdn}/*?*"
+    "&{am.server.protocol|https}://&{fqdn}/*?*",
+    "&{esv.sapig.core.as.baseurl}/am/*?*"
   ]
 }

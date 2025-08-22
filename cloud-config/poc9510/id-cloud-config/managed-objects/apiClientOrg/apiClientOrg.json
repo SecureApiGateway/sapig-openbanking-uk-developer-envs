@@ -1,0 +1,116 @@
+{
+  "iconClass": "fa fa-database",
+  "name": "apiClientOrg",
+  "schema": {
+    "$schema": "http://forgerock.org/json-schema#",
+    "description": "apiClientOrg Details",
+    "icon": "fa-bank",
+    "mat-icon": "",
+    "order": [
+      "name",
+      "id",
+      "created",
+      "_id",
+      "apiClients"
+    ],
+    "properties": {
+      "_id": {
+        "description": null,
+        "isVirtual": false,
+        "minLength": null,
+        "searchable": false,
+        "title": "Internal IDM Identifier",
+        "type": "string",
+        "userEditable": false,
+        "viewable": true
+      },
+      "apiClients": {
+        "deleteQueryConfig": false,
+        "description": null,
+        "isVirtual": false,
+        "items": {
+          "notifySelf": false,
+          "properties": {
+            "_ref": {
+              "type": "string"
+            },
+            "_refProperties": {
+              "properties": {
+                "_id": {
+                  "propName": "_id",
+                  "required": false,
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "resourceCollection": [
+            {
+              "label": "apiClient",
+              "notify": false,
+              "path": "managed/apiClient",
+              "query": {
+                "fields": [],
+                "queryFilter": "true",
+                "sortKeys": []
+              }
+            }
+          ],
+          "reversePropertyName": "apiClientOrg",
+          "reverseRelationship": true,
+          "type": "relationship",
+          "validate": false
+        },
+        "minLength": null,
+        "policies": [],
+        "referencedObjectFields": null,
+        "referencedRelationshipFields": null,
+        "requiredByParent": false,
+        "returnByDefault": false,
+        "searchable": false,
+        "title": "API Clients",
+        "type": "array",
+        "userEditable": false,
+        "viewable": true
+      },
+      "created": {
+        "searchable": true,
+        "title": "Timestamp",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "id": {
+        "deleteQueryConfig": false,
+        "description": "API Client Organisation ID",
+        "isVirtual": false,
+        "policies": [
+          {
+            "params": {},
+            "policyId": "unique"
+          }
+        ],
+        "searchable": true,
+        "title": "API Client Organisation ID",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
+      "name": {
+        "deleteQueryConfig": false,
+        "description": "API Client Organisation Name",
+        "isVirtual": false,
+        "searchable": true,
+        "title": "API Client Organisation Name",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      }
+    },
+    "required": [],
+    "title": "apiClientOrg",
+    "type": "object"
+  },
+  "type": "Managed Object"
+}

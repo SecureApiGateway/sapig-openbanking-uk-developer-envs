@@ -1,6 +1,6 @@
 {
   "_id": "",
-  "_rev": "-858631753",
+  "_rev": "-1957641651",
   "_type": {
     "_id": "EMPTY",
     "collection": false,
@@ -16,7 +16,7 @@
     "storeInvalidAttemptsInDataStore": true
   },
   "core": {
-    "adminAuthModule": "Login",
+    "adminAuthModule": "[Empty]",
     "orgConfig": "Login"
   },
   "general": {
@@ -34,7 +34,7 @@
     "loginFailureUrl": [],
     "loginPostProcessClass": [],
     "loginSuccessUrl": [
-      "/enduser/?realm=/alpha"
+      "/enduser/?realm=/&{esv.sapig.core.identity.cloud.realm}"
     ],
     "userAttributeSessionMapping": [],
     "usernameGeneratorClass": "com.sun.identity.authentication.spi.DefaultUserIDGenerator",
@@ -54,9 +54,9 @@
   "trees": {
     "authenticationSessionsMaxDuration": 5,
     "authenticationSessionsStateManagement": "JWT",
-    "authenticationSessionsWhitelist": true,
+    "authenticationSessionsWhitelist": false,
     "authenticationTreeCookieHttpOnly": true,
-    "suspendedAuthenticationTimeout": 5
+    "suspendedAuthenticationTimeout": 1440
   },
   "userprofile": {
     "aliasAttributeName": [
