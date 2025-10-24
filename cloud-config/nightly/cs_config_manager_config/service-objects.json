@@ -27,6 +27,19 @@
       },
       "searchField": "userName",
       "searchValue": "psu4test"
+    },
+    {
+      "fields": [
+        "userName",
+        "givenName",
+        "sn",
+        "mail"
+      ],
+      "overrides": {
+        "password": "${ESV_STUDIOUSER_PASSWORD}"
+      },
+      "searchField": "userName",
+      "searchValue": "studioUser"
     }
   ],
   "bravo_role": [],
@@ -57,6 +70,19 @@
       },
       "searchField": "userName",
       "searchValue": "psu4test"
+    },
+    {
+      "fields": [
+        "userName",
+        "givenName",
+        "sn",
+        "mail"
+      ],
+      "overrides": {
+        "password": "${ESV_STUDIOUSER_PASSWORD}"
+      },
+      "searchField": "userName",
+      "searchValue": "studioUser"
     }
   ]
 }

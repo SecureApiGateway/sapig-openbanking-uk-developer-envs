@@ -1,0 +1,9 @@
+{
+  "_id": "4737f9f9-fa0a-4159-bc61-7da31542e625",
+  "_rev": "f9737481-2814-4567-a9e3-40734ba62192-1369",
+  "givenName": "Studio",
+  "mail": "studiouser@acme.com",
+  "password": "${ESV_STUDIOUSER_PASSWORD}",
+  "sn": "User",
+  "userName": "studioUser"
+}
