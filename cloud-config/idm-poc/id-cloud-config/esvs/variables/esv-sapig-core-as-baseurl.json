@@ -1,6 +1,0 @@
-{
-  "_id": "esv-sapig-core-as-baseurl",
-  "description": "",
-  "expressionType": "string",
-  "valueBase64": "${ESV_SAPIG_CORE_AS_BASEURL}"
-}

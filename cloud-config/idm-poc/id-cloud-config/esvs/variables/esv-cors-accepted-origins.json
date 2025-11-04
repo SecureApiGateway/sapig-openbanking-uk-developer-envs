@@ -1,6 +1,0 @@
-{
-  "_id": "esv-cors-accepted-origins",
-  "description": "",
-  "expressionType": "list",
-  "valueBase64": "${ESV_CORS_ACCEPTED_ORIGINS}"
-}
