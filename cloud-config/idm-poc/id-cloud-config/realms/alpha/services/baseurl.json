@@ -1,0 +1,12 @@
+{
+  "_id": "",
+  "_rev": "800394109",
+  "_type": {
+    "_id": "baseurl",
+    "collection": false,
+    "name": "Base URL Source"
+  },
+  "contextPath": "/am",
+  "fixedValue": "&{esv.sapig.core.as.baseurl}",
+  "source": "FIXED_VALUE"
+}
