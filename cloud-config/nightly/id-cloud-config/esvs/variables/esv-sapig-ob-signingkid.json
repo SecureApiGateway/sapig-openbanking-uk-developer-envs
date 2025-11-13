@@ -1,0 +1,6 @@
+{
+  "_id": "esv-sapig-ob-signingkid",
+  "description": "",
+  "expressionType": "string",
+  "valueBase64": "${ESV_SAPIG_OB_SIGNINGKID}"
+}
