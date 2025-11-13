@@ -40,7 +40,7 @@
     "parRequestUriLifetime": 90,
     "persistentClaims": [],
     "refreshTokenGracePeriod": 0,
-    "requestObjectProcessing": "OIDC",
+    "requestObjectProcessing": "JAR",
     "requirePushedAuthorizationRequests": false,
     "responseTypeClasses": [
       "code|org.forgerock.oauth2.core.AuthorizationCodeResponseTypeHandler",
