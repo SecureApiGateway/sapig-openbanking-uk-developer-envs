@@ -85,7 +85,7 @@
     "idTokenInfoClientAuthenticationEnabled": true,
     "includeAllKtyAlgCombinationsInJwksUri": false,
     "jwtSigningKidHeaderMappings": {
-      "esv-sapig-core-obseal-pem": "&{esv-sapig-core-signingkid}"
+      "esv-sapig-core-obseal-pem": "&{esv.sapig.core.signingkid}"
     },
     "loaMapping": {
       "urn:mace:incommon:iap:silver": "PSD2CustomerAuthentication"

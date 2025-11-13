@@ -85,7 +85,7 @@
     "idTokenInfoClientAuthenticationEnabled": true,
     "includeAllKtyAlgCombinationsInJwksUri": false,
     "jwtSigningKidHeaderMappings": {
-      "esv-sapig-ob-obseal-pem": "&{esv-sapig-ob-signingkid}"
+      "esv-sapig-ob-obseal-pem": "&{esv.sapig.ob.signingkid}"
     },
     "loaMapping": {
       "urn:openbanking:psd2:ca": "PSD2CustomerAuthentication",
