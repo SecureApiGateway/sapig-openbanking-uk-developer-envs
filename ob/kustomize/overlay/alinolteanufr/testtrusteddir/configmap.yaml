@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: test-trusted-directory-config
-data:
-  TRUSTEDDIR_FQDN: "test-trusted-directory.alinolteanufr-ob.forgerock.financial"
