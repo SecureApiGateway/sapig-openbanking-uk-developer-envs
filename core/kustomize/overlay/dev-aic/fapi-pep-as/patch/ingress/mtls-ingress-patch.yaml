@@ -1,9 +1,0 @@
-- op: replace 
-  path: /spec/rules/0/http/paths/0/path
-  value: /am/oauth2/realms/root/realms/bravo/access_token
-- op: replace 
-  path: /spec/rules/0/http/paths/1/path
-  value: /am/oauth2/realms/root/realms/bravo/register
-- op: replace
-  path: /spec/rules/0/http/paths/2/path
-  value: /am/oauth2/realms/root/realms/bravo/par
