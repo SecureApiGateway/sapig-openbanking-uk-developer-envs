@@ -10,11 +10,12 @@
       "id": "false"
     }
   ],
-  "_rev": "-1218497043",
+  "_rev": "-833300678",
   "_type": {
     "_id": "AttributePresentDecisionNode",
     "collection": true,
-    "name": "Attribute Present Decision"
+    "name": "Attribute Present Decision",
+    "version": "1.0"
   },
   "identityAttribute": "userName",
   "presentAttribute": "password"

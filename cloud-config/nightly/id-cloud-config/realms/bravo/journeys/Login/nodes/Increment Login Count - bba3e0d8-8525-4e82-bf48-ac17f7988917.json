@@ -6,11 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "2098371942",
+  "_rev": "-1742156045",
   "_type": {
     "_id": "IncrementLoginCountNode",
     "collection": true,
-    "name": "Increment Login Count"
+    "name": "Increment Login Count",
+    "version": "1.0"
   },
   "identityAttribute": "userName"
 }

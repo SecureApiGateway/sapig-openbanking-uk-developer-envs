@@ -1,12 +1,14 @@
 {
   "_id": "",
-  "_rev": "1031866848",
+  "_rev": "-1052428094",
   "_type": {
     "_id": "oauth-oidc",
     "collection": false,
     "name": "OAuth2 Provider"
   },
   "advancedOAuth2Config": {
+    "acceptAudienceParametersInTokenExchangeRequests": false,
+    "allowClientCredentialsInTokenRequestQueryParameters": true,
     "allowedAudienceValues": [
       "&{esv.sapig.core.as.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token",
       "&{esv.sapig.core.as.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.core.identity.cloud.realm}/access_token",
@@ -18,6 +20,8 @@
     "codeVerifierEnforced": "false",
     "defaultScopes": [],
     "displayNameAttribute": "cn",
+    "enableApplicationContext": false,
+    "enableRichAuthorizationRequests": false,
     "expClaimRequiredInRequestObject": true,
     "grantTypes": [
       "implicit",
@@ -32,12 +36,16 @@
       "urn:ietf:params:oauth:grant-type:jwt-bearer"
     ],
     "hashSalt": "&{am.oidc.client.subject.identifier.hash.salt}",
+    "includeClientIdClaimInStatelessTokens": true,
+    "includeSubnameInTokenClaims": true,
+    "introspectionAudienceValidationEnabled": false,
     "macaroonTokenFormat": "V2",
     "maxAgeOfRequestObjectNbfClaim": 0,
     "maxDifferenceBetweenRequestObjectNbfAndExp": 60,
     "moduleMessageEnabledInPasswordGrant": false,
     "nbfClaimRequiredInRequestObject": true,
     "parRequestUriLifetime": 90,
+    "passwordGrantAuthService": "Login",
     "persistentClaims": [],
     "refreshTokenGracePeriod": 0,
     "requestObjectProcessing": "JAR",
@@ -46,6 +54,7 @@
       "code|org.forgerock.oauth2.core.AuthorizationCodeResponseTypeHandler",
       "id_token|org.forgerock.openidconnect.IdTokenResponseTypeHandler"
     ],
+    "restrictTokenExchangeScopesToSubjectTokenScopes": false,
     "supportedScopes": [
       "openid",
       "payments",
@@ -59,7 +68,8 @@
     ],
     "tlsCertificateBoundAccessTokensEnabled": true,
     "tlsCertificateRevocationCheckingEnabled": false,
-    "tlsClientCertificateHeaderFormat": "URLENCODED_PEM",
+    "tlsClientCertificateChainValidationEnabled": false,
+    "tlsClientCertificateHeaderFormat": "BASE64_ENCODED_CERT",
     "tlsClientCertificateTrustedHeader": "ssl-client-cert",
     "tokenCompressionEnabled": false,
     "tokenEncryptionEnabled": false,
@@ -73,7 +83,8 @@
     "tokenValidatorClasses": [
       "urn:ietf:params:oauth:token-type:id_token|org.forgerock.oauth2.core.tokenexchange.idtoken.OidcIdTokenValidator",
       "urn:ietf:params:oauth:token-type:access_token|org.forgerock.oauth2.core.tokenexchange.accesstoken.OAuth2AccessTokenValidator"
-    ]
+    ],
+    "useTokenIntrospectionClaimForJWT": false
   },
   "advancedOIDCConfig": {
     "alwaysAddClaimsToToken": true,
@@ -84,12 +95,14 @@
     "defaultACR": [],
     "idTokenInfoClientAuthenticationEnabled": true,
     "includeAllKtyAlgCombinationsInJwksUri": false,
+    "jkwsURI": "https://keystore.openbankingtest.org.uk/0015800001041REAAY/YZyyZHejcCGRrWkh3OfkLI.jwks",
     "jwtSigningKidHeaderMappings": {
       "esv-sapig-core-obseal-pem": "&{esv.sapig.core.signingkid}"
     },
     "loaMapping": {
       "urn:mace:incommon:iap:silver": "PSD2CustomerAuthentication"
     },
+    "minMaxAge": 60,
     "storeOpsTokens": true,
     "supportedAuthorizationResponseEncryptionAlgorithms": [
       "ECDH-ES+A256KW",
@@ -186,7 +199,12 @@
     "supportedUserInfoSigningAlgorithms": [
       "PS256"
     ],
+    "useForceAuthnForMaxAge": false,
     "useForceAuthnForPromptLogin": false
+  },
+  "aiAgentsConfig": {
+    "aiAgentsEnabled": false,
+    "aiAgentsIdentityObjectMapping": []
   },
   "cibaConfig": {
     "cibaAuthReqIdLifetime": 600,
@@ -198,9 +216,11 @@
   "clientDynamicRegistrationConfig": {
     "allowDynamicRegistration": false,
     "dynamicClientRegistrationScope": "dynamic_client_registration",
+    "dynamicClientRegistrationScript": "[Empty]",
     "dynamicClientRegistrationSoftwareStatementRequired": true,
     "generateRegistrationAccessTokens": true,
-    "requiredSoftwareStatementAttestedAttributes": []
+    "requiredSoftwareStatementAttestedAttributes": [],
+    "storeSoftwareStatementInOAuth2Client": true
   },
   "consent": {
     "clientsCanSkipConsent": false,
@@ -300,6 +320,27 @@
     "deviceCodeLifetime": 300,
     "devicePollInterval": 5,
     "deviceUserCodeCharacterSet": "234567ACDEFGHJKLMNPQRSTWXYZabcdefhijkmnopqrstwxyz",
-    "deviceUserCodeLength": 8
+    "deviceUserCodeLength": 8,
+    "exposeDeviceUserCodeLength": false,
+    "realmAllowUnauthorisedAccessToUserCodeForm": false
+  },
+  "pluginsConfig": {
+    "accessTokenEnricherClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
+    "accessTokenModificationPluginType": "SCRIPTED",
+    "accessTokenModificationScript": "21138ab1-0621-4466-b18f-670bfcbabca7",
+    "accessTokenModifierClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
+    "authorizeEndpointDataProviderClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
+    "authorizeEndpointDataProviderPluginType": "JAVA",
+    "authorizeEndpointDataProviderScript": "[Empty]",
+    "evaluateScopeClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
+    "evaluateScopePluginType": "JAVA",
+    "evaluateScopeScript": "[Empty]",
+    "oidcClaimsClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
+    "oidcClaimsPluginType": "SCRIPTED",
+    "oidcClaimsScript": "36863ffb-40ec-48b9-94b1-9a99f71cc3b5",
+    "userCodeGeneratorClass": "org.forgerock.oauth2.core.plugins.registry.DefaultUserCodeGenerator",
+    "validateScopeClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
+    "validateScopePluginType": "JAVA",
+    "validateScopeScript": "[Empty]"
   }
 }

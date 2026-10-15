@@ -1,9 +1,11 @@
 {
   "_id": "PSD2SecureCustomerAuthentication",
-  "_rev": "-748957883",
+  "_rev": "-1881900136",
   "enabled": true,
   "entryNodeId": "ee0efdc1-9fba-4323-95ef-ec468f6ad30c",
   "innerTreeOnly": false,
+  "mustRun": false,
+  "noSession": false,
   "nodes": {
     "4785b3c1-5dc9-4883-b01e-2f1b6bfda50e": {
       "connections": {
@@ -11,6 +13,7 @@
       },
       "displayName": "Password Collector",
       "nodeType": "PasswordCollectorNode",
+      "version": "1.0",
       "x": 266,
       "y": 295.015625
     },
@@ -21,6 +24,7 @@
       },
       "displayName": "Data Store Decision",
       "nodeType": "DataStoreDecisionNode",
+      "version": "1.0",
       "x": 510,
       "y": 186.015625
     },
@@ -30,6 +34,7 @@
       },
       "displayName": "Username Collector",
       "nodeType": "UsernameCollectorNode",
+      "version": "1.0",
       "x": 200,
       "y": 218.015625
     }
@@ -48,5 +53,6 @@
       "y": 250
     }
   },
+  "transactionalOnly": false,
   "uiConfig": {}
 }

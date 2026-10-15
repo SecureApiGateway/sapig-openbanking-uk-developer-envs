@@ -1,6 +1,6 @@
 {
   "_id": "Secure API Gateway Development Trusted Directory",
-  "_rev": "-991743971",
+  "_rev": "68815863",
   "_type": {
     "_id": "SoftwarePublisher",
     "collection": true,
@@ -32,6 +32,5 @@
   "softwareStatementSigningAlgorithm": {
     "inherited": false,
     "value": "PS256"
-  },
-  "userpassword": null
+  }
 }

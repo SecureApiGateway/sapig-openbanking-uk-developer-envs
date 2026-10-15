@@ -6,10 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "2111256055",
+  "_rev": "1467859567",
   "_type": {
     "_id": "UsernameCollectorNode",
     "collection": true,
-    "name": "Username Collector"
-  }
+    "name": "Username Collector",
+    "version": "1.0"
+  },
+  "autocompleteValues": []
 }

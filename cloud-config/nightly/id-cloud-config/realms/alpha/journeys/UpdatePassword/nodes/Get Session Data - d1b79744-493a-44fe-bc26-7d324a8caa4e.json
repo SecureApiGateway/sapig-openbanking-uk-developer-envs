@@ -6,11 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "-716667889",
+  "_rev": "-530831972",
   "_type": {
     "_id": "SessionDataNode",
     "collection": true,
-    "name": "Get Session Data"
+    "name": "Get Session Data",
+    "version": "1.0"
   },
   "sessionDataKey": "UserToken",
   "sharedStateKey": "userName"

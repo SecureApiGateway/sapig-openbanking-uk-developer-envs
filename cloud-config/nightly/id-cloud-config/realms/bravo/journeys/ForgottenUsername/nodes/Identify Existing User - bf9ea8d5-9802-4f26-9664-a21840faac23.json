@@ -10,11 +10,12 @@
       "id": "false"
     }
   ],
-  "_rev": "-626658673",
+  "_rev": "-174222356",
   "_type": {
     "_id": "IdentifyExistingUserNode",
     "collection": true,
-    "name": "Identify Existing User"
+    "name": "Identify Existing User",
+    "version": "1.0"
   },
   "identifier": "userName",
   "identityAttribute": "mail"

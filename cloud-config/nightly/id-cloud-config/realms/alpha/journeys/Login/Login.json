@@ -1,11 +1,13 @@
 {
   "_id": "Login",
-  "_rev": "-1866690371",
+  "_rev": "384176338",
   "description": "Platform Login Tree",
   "enabled": true,
   "entryNodeId": "a12bc72f-ad97-4f1e-a789-a1fa3dd566c8",
   "identityResource": "managed/alpha_user",
   "innerTreeOnly": false,
+  "mustRun": false,
+  "noSession": false,
   "nodes": {
     "2119f332-0f69-4088-a7a1-6582bf0f2001": {
       "connections": {
@@ -14,6 +16,7 @@
       },
       "displayName": "Retry Limit Decision",
       "nodeType": "RetryLimitDecisionNode",
+      "version": "1.0",
       "x": 612,
       "y": 105.015625
     },
@@ -24,6 +27,7 @@
       },
       "displayName": "Inner Tree Evaluator",
       "nodeType": "InnerTreeEvaluatorNode",
+      "version": "1.0",
       "x": 827,
       "y": 13
     },
@@ -33,6 +37,7 @@
       },
       "displayName": "Account Lockout",
       "nodeType": "AccountLockoutNode",
+      "version": "1.0",
       "x": 836,
       "y": 184.015625
     },
@@ -46,6 +51,7 @@
       },
       "displayName": "Identity Store Decision",
       "nodeType": "IdentityStoreDecisionNode",
+      "version": "1.0",
       "x": 352,
       "y": 40.015625
     },
@@ -55,6 +61,7 @@
       },
       "displayName": "Page Node",
       "nodeType": "PageNode",
+      "version": "1.0",
       "x": 136,
       "y": 59
     },
@@ -64,6 +71,7 @@
       },
       "displayName": "Increment Login Count",
       "nodeType": "IncrementLoginCountNode",
+      "version": "1.0",
       "x": 579,
       "y": 34
     }
@@ -82,6 +90,7 @@
       "y": 25
     }
   },
+  "transactionalOnly": false,
   "uiConfig": {
     "categories": "[\"Authentication\"]"
   }

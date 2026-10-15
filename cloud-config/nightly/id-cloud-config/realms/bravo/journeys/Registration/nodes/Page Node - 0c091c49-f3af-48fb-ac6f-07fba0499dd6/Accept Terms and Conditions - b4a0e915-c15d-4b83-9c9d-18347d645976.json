@@ -6,10 +6,11 @@
       "id": "outcome"
     }
   ],
-  "_rev": "1508860909",
+  "_rev": "1961133386",
   "_type": {
     "_id": "AcceptTermsAndConditionsNode",
     "collection": true,
-    "name": "Accept Terms and Conditions"
+    "name": "Accept Terms and Conditions",
+    "version": "1.0"
   }
 }

@@ -10,11 +10,12 @@
       "id": "FAILURE"
     }
   ],
-  "_rev": "1288219125",
+  "_rev": "1742752578",
   "_type": {
     "_id": "PatchObjectNode",
     "collection": true,
-    "name": "Patch Object"
+    "name": "Patch Object",
+    "version": "1.0"
   },
   "identityAttribute": "userName",
   "identityResource": "managed/alpha_user",

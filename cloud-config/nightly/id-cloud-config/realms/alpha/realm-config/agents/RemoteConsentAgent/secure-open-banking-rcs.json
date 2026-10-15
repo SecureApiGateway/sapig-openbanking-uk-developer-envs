@@ -1,6 +1,6 @@
 {
   "_id": "secure-open-banking-rcs",
-  "_rev": "1441260424",
+  "_rev": "681761474",
   "_type": {
     "_id": "RemoteConsentAgent",
     "collection": true,
@@ -27,7 +27,7 @@
   },
   "remoteConsentRedirectUrl": {
     "inherited": false,
-    "value": "&{esv.sapig.ob.rs.baseurl}/rcs/ui/consent"
+    "value": "&{esv.sapig.ob.baseurl}/rcs/ui/consent"
   },
   "remoteConsentRequestEncryptionAlgorithm": {
     "inherited": false,
@@ -60,6 +60,5 @@
   "requestTimeLimit": {
     "inherited": false,
     "value": 900
-  },
-  "userpassword": null
+  }
 }

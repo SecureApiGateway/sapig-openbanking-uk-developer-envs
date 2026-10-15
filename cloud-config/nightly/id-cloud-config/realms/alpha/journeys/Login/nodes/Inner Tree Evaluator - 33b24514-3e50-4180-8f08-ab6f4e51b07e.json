@@ -10,11 +10,13 @@
       "id": "false"
     }
   ],
-  "_rev": "-1405518667",
+  "_rev": "-1174574821",
   "_type": {
     "_id": "InnerTreeEvaluatorNode",
     "collection": true,
-    "name": "Inner Tree Evaluator"
+    "name": "Inner Tree Evaluator",
+    "version": "1.0"
   },
+  "displayErrorOutcome": false,
   "tree": "ProgressiveProfile"
 }

@@ -10,11 +10,12 @@
       "id": "FAILURE"
     }
   ],
-  "_rev": "-612221945",
+  "_rev": "-157786796",
   "_type": {
     "_id": "CreateObjectNode",
     "collection": true,
-    "name": "Create Object"
+    "name": "Create Object",
+    "version": "1.0"
   },
   "identityResource": "managed/alpha_user"
 }

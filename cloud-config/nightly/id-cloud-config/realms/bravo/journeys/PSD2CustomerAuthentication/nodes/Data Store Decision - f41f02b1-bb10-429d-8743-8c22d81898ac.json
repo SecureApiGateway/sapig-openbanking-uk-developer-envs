@@ -10,10 +10,11 @@
       "id": "false"
     }
   ],
-  "_rev": "-1744860878",
+  "_rev": "-1223349569",
   "_type": {
     "_id": "DataStoreDecisionNode",
     "collection": true,
-    "name": "Data Store Decision"
+    "name": "Data Store Decision",
+    "version": "1.0"
   }
 }

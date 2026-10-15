@@ -10,11 +10,12 @@
       "id": "FAILURE"
     }
   ],
-  "_rev": "-253417055",
+  "_rev": "201116398",
   "_type": {
     "_id": "PatchObjectNode",
     "collection": true,
-    "name": "Patch Object"
+    "name": "Patch Object",
+    "version": "1.0"
   },
   "identityAttribute": "userName",
   "identityResource": "managed/bravo_user",

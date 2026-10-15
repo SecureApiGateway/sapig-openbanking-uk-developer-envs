@@ -10,11 +10,12 @@
       "id": "Reject"
     }
   ],
-  "_rev": "-809908897",
+  "_rev": "-422586644",
   "_type": {
     "_id": "RetryLimitDecisionNode",
     "collection": true,
-    "name": "Retry Limit Decision"
+    "name": "Retry Limit Decision",
+    "version": "1.0"
   },
   "incrementUserAttributeOnFailure": true,
   "retryLimit": 5

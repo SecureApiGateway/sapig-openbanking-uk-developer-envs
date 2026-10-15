@@ -2,6 +2,11 @@
   "_id": "ui/configuration",
   "configuration": {
     "defaultNotificationType": "info",
+    "federationProviderSettings": {
+      "PingOne": {
+        "key": "pingone"
+      }
+    },
     "forgotUsername": false,
     "lang": "en",
     "notificationTypes": {

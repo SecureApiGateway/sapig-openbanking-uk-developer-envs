@@ -1,11 +1,13 @@
 {
   "_id": "Login",
-  "_rev": "-1963830231",
+  "_rev": "1447343562",
   "description": "Platform Login Tree",
   "enabled": true,
   "entryNodeId": "a12bc72f-ad97-4f1e-a789-a1fa3dd566c8",
   "identityResource": "managed/bravo_user",
   "innerTreeOnly": false,
+  "mustRun": false,
+  "noSession": false,
   "nodes": {
     "33b24514-3e50-4180-8f08-ab6f4e51b07e": {
       "connections": {
@@ -14,6 +16,7 @@
       },
       "displayName": "Inner Tree Evaluator",
       "nodeType": "InnerTreeEvaluatorNode",
+      "version": "1.0",
       "x": 987,
       "y": 117
     },
@@ -23,6 +26,7 @@
       },
       "displayName": "Account Lockout",
       "nodeType": "AccountLockoutNode",
+      "version": "1.0",
       "x": 1035,
       "y": 278.015625
     },
@@ -32,6 +36,7 @@
       },
       "displayName": "Page Node",
       "nodeType": "PageNode",
+      "version": "1.0",
       "x": 136,
       "y": 59
     },
@@ -45,6 +50,7 @@
       },
       "displayName": "Identity Store Decision",
       "nodeType": "IdentityStoreDecisionNode",
+      "version": "1.0",
       "x": 409,
       "y": 120.015625
     },
@@ -54,6 +60,7 @@
       },
       "displayName": "Increment Login Count",
       "nodeType": "IncrementLoginCountNode",
+      "version": "1.0",
       "x": 690,
       "y": 99
     },
@@ -64,6 +71,7 @@
       },
       "displayName": "Retry Limit Decision",
       "nodeType": "RetryLimitDecisionNode",
+      "version": "1.0",
       "x": 739,
       "y": 219.015625
     }
@@ -82,6 +90,7 @@
       "y": 25
     }
   },
+  "transactionalOnly": false,
   "uiConfig": {
     "categories": "[\"Authentication\"]"
   }

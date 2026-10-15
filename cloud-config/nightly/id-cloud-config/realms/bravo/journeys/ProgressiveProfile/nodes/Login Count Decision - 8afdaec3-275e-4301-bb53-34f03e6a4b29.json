@@ -10,11 +10,12 @@
       "id": "false"
     }
   ],
-  "_rev": "-1679047423",
+  "_rev": "-1493211554",
   "_type": {
     "_id": "LoginCountDecisionNode",
     "collection": true,
-    "name": "Login Count Decision"
+    "name": "Login Count Decision",
+    "version": "1.0"
   },
   "amount": 3,
   "identityAttribute": "userName",

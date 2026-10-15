@@ -6,11 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "-1158802257",
+  "_rev": "-907823556",
   "_type": {
     "_id": "AttributeCollectorNode",
     "collection": true,
-    "name": "Attribute Collector"
+    "name": "Attribute Collector",
+    "version": "1.0"
   },
   "attributesToCollect": [
     "givenName",
