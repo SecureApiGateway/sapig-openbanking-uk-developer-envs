@@ -1,0 +1,6 @@
+{
+  "_id": "esv-am-validate-scripted-claims",
+  "description": "",
+  "expressionType": "bool",
+  "valueBase64": "${ESV_AM_VALIDATE_SCRIPTED_CLAIMS}"
+}

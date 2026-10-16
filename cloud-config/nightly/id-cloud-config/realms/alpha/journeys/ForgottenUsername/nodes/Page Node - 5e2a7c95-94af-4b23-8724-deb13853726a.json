@@ -6,17 +6,19 @@
       "id": "outcome"
     }
   ],
-  "_rev": "-1421046051",
+  "_rev": "60678637",
   "_type": {
     "_id": "PageNode",
     "collection": true,
-    "name": "Page Node"
+    "name": "Page Node",
+    "version": "1.0"
   },
   "nodes": [
     {
       "_id": "9f1e8d94-4922-481b-9e14-212b66548900",
       "displayName": "Attribute Collector",
-      "nodeType": "AttributeCollectorNode"
+      "nodeType": "AttributeCollectorNode",
+      "nodeVersion": "1.0"
     }
   ],
   "pageDescription": {

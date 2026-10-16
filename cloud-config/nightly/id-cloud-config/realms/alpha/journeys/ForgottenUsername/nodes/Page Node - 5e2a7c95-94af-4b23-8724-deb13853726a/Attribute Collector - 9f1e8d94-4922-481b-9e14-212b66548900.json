@@ -6,11 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "-1331445210",
+  "_rev": "-1080466509",
   "_type": {
     "_id": "AttributeCollectorNode",
     "collection": true,
-    "name": "Attribute Collector"
+    "name": "Attribute Collector",
+    "version": "1.0"
   },
   "attributesToCollect": [
     "mail"

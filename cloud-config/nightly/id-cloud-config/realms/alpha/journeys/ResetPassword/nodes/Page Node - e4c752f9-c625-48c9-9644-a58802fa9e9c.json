@@ -6,17 +6,19 @@
       "id": "outcome"
     }
   ],
-  "_rev": "1593283676",
+  "_rev": "-1303847056",
   "_type": {
     "_id": "PageNode",
     "collection": true,
-    "name": "Page Node"
+    "name": "Page Node",
+    "version": "1.0"
   },
   "nodes": [
     {
       "_id": "009c19c8-9572-47bb-adb2-1f092c559a43",
       "displayName": "Platform Password",
-      "nodeType": "ValidatedPasswordNode"
+      "nodeType": "ValidatedPasswordNode",
+      "nodeVersion": "1.0"
     }
   ],
   "pageDescription": {

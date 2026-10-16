@@ -10,11 +10,12 @@
       "id": "FAILURE"
     }
   ],
-  "_rev": "2141109171",
+  "_rev": "-1699422976",
   "_type": {
     "_id": "CreateObjectNode",
     "collection": true,
-    "name": "Create Object"
+    "name": "Create Object",
+    "version": "1.0"
   },
   "identityResource": "managed/bravo_user"
 }

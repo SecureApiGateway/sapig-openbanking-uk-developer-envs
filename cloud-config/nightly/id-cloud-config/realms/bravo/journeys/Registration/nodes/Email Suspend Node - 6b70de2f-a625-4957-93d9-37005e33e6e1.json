@@ -6,11 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "-727001800",
+  "_rev": "-475990379",
   "_type": {
     "_id": "EmailSuspendNode",
     "collection": true,
-    "name": "Email Suspend Node"
+    "name": "Email Suspend Node",
+    "version": "1.0"
   },
   "emailAttribute": "mail",
   "emailSuspendMessage": {

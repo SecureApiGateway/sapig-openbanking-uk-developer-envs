@@ -1,11 +1,13 @@
 {
   "_id": "ProgressiveProfile",
-  "_rev": "-900304922",
+  "_rev": "260694535",
   "description": "Prompt for missing preferences on 3rd login",
   "enabled": true,
   "entryNodeId": "8afdaec3-275e-4301-bb53-34f03e6a4b29",
   "identityResource": "managed/alpha_user",
   "innerTreeOnly": false,
+  "mustRun": false,
+  "noSession": false,
   "nodes": {
     "423a959a-a1b9-498a-b0f7-596b6b6e775a": {
       "connections": {
@@ -14,6 +16,7 @@
       },
       "displayName": "Patch Object",
       "nodeType": "PatchObjectNode",
+      "version": "1.0",
       "x": 766,
       "y": 36
     },
@@ -24,6 +27,7 @@
       },
       "displayName": "Login Count Decision",
       "nodeType": "LoginCountDecisionNode",
+      "version": "1.0",
       "x": 152,
       "y": 36
     },
@@ -34,6 +38,7 @@
       },
       "displayName": "Query Filter Decision",
       "nodeType": "QueryFilterDecisionNode",
+      "version": "1.0",
       "x": 357,
       "y": 36
     },
@@ -43,6 +48,7 @@
       },
       "displayName": "Page Node",
       "nodeType": "PageNode",
+      "version": "1.0",
       "x": 555,
       "y": 20
     }
@@ -61,6 +67,7 @@
       "y": 58.5
     }
   },
+  "transactionalOnly": false,
   "uiConfig": {
     "categories": "[\"Progressive Profile\"]"
   }

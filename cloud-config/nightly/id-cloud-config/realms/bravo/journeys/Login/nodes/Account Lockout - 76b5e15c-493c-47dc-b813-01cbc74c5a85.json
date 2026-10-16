@@ -6,11 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "1359876658",
+  "_rev": "1879126927",
   "_type": {
     "_id": "AccountLockoutNode",
     "collection": true,
-    "name": "Account Lockout"
+    "name": "Account Lockout",
+    "version": "1.0"
   },
   "lockAction": "LOCK"
 }

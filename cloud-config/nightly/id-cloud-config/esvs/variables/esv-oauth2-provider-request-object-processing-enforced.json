@@ -2,5 +2,5 @@
   "_id": "esv-oauth2-provider-request-object-processing-enforced",
   "description": "OpenAM-22460",
   "expressionType": "string",
-  "valueBase64": "true"
+  "valueBase64": "${ESV_OAUTH2_PROVIDER_REQUEST_OBJECT_PROCESSING_ENFORCED}"
 }

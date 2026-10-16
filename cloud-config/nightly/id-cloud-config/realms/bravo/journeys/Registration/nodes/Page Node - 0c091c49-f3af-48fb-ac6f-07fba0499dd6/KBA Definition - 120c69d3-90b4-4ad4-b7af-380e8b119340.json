@@ -6,11 +6,12 @@
       "id": "outcome"
     }
   ],
-  "_rev": "-8134977",
+  "_rev": "242876428",
   "_type": {
     "_id": "KbaCreateNode",
     "collection": true,
-    "name": "KBA Definition"
+    "name": "KBA Definition",
+    "version": "1.0"
   },
   "allowUserDefinedQuestions": true,
   "message": {

@@ -1,11 +1,13 @@
 {
   "_id": "ForgottenUsername",
-  "_rev": "-1251510853",
+  "_rev": "1922908182",
   "description": "Forgotten Username Tree",
   "enabled": true,
   "entryNodeId": "5e2a7c95-94af-4b23-8724-deb13853726a",
   "identityResource": "managed/bravo_user",
   "innerTreeOnly": false,
+  "mustRun": false,
+  "noSession": false,
   "nodes": {
     "5e2a7c95-94af-4b23-8724-deb13853726a": {
       "connections": {
@@ -13,6 +15,7 @@
       },
       "displayName": "Page Node",
       "nodeType": "PageNode",
+      "version": "1.0",
       "x": 139,
       "y": 146
     },
@@ -23,6 +26,7 @@
       },
       "displayName": "Inner Tree Evaluator",
       "nodeType": "InnerTreeEvaluatorNode",
+      "version": "1.0",
       "x": 767,
       "y": 188
     },
@@ -33,6 +37,7 @@
       },
       "displayName": "Identify Existing User",
       "nodeType": "IdentifyExistingUserNode",
+      "version": "1.0",
       "x": 324,
       "y": 152
     },
@@ -42,6 +47,7 @@
       },
       "displayName": "Email Suspend Node",
       "nodeType": "EmailSuspendNode",
+      "version": "1.0",
       "x": 563,
       "y": 193
     }
@@ -60,6 +66,7 @@
       "y": 25
     }
   },
+  "transactionalOnly": false,
   "uiConfig": {
     "categories": "[\"Username Reset\"]"
   }

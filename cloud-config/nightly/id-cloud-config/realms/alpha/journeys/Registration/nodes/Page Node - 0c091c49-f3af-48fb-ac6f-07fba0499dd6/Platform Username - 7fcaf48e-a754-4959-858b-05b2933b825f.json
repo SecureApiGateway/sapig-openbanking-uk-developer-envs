@@ -6,12 +6,14 @@
       "id": "outcome"
     }
   ],
-  "_rev": "1966656034",
+  "_rev": "1323128538",
   "_type": {
     "_id": "ValidatedUsernameNode",
     "collection": true,
-    "name": "Platform Username"
+    "name": "Platform Username",
+    "version": "1.0"
   },
+  "autocompleteValues": [],
   "usernameAttribute": "userName",
   "validateInput": true
 }

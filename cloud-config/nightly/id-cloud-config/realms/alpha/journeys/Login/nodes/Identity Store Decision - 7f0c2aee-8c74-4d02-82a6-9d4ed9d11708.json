@@ -22,11 +22,12 @@
       "id": "EXPIRED"
     }
   ],
-  "_rev": "1663221949",
+  "_rev": "2134532618",
   "_type": {
     "_id": "IdentityStoreDecisionNode",
     "collection": true,
-    "name": "Identity Store Decision"
+    "name": "Identity Store Decision",
+    "version": "1.0"
   },
   "minimumPasswordLength": 8,
   "mixedCaseForPasswordChangeMessages": false,

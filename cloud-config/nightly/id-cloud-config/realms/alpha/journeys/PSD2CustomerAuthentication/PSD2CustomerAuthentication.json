@@ -1,9 +1,11 @@
 {
   "_id": "PSD2CustomerAuthentication",
-  "_rev": "1208497051",
+  "_rev": "2139783443",
   "enabled": true,
   "entryNodeId": "9ea6a7ef-518a-4586-8f76-71865b1d0b18",
   "innerTreeOnly": false,
+  "mustRun": false,
+  "noSession": false,
   "nodes": {
     "9ea6a7ef-518a-4586-8f76-71865b1d0b18": {
       "connections": {
@@ -11,6 +13,7 @@
       },
       "displayName": "Page Node",
       "nodeType": "PageNode",
+      "version": "1.0",
       "x": 194,
       "y": 253.015625
     },
@@ -21,6 +24,7 @@
       },
       "displayName": "Data Store Decision",
       "nodeType": "DataStoreDecisionNode",
+      "version": "1.0",
       "x": 486,
       "y": 242.015625
     }
@@ -39,5 +43,6 @@
       "y": 250
     }
   },
+  "transactionalOnly": false,
   "uiConfig": {}
 }

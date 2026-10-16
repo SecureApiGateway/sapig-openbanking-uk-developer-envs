@@ -2,8 +2,8 @@
   "iconClass": "fa fa-database",
   "name": "apiClient",
   "onRead": {
+    "file": "apiClient.onRead.js",
     "globals": {},
-    "source": "if (object.softwareId == null) {\n  object.softwareId = object.id\n}",
     "type": "text/javascript"
   },
   "schema": {

@@ -6,22 +6,25 @@
       "id": "outcome"
     }
   ],
-  "_rev": "593125899",
+  "_rev": "-774681928",
   "_type": {
     "_id": "PageNode",
     "collection": true,
-    "name": "Page Node"
+    "name": "Page Node",
+    "version": "1.0"
   },
   "nodes": [
     {
       "_id": "ada9ef86-d550-4591-b9dc-5751e7adbb62",
       "displayName": "Username Collector",
-      "nodeType": "UsernameCollectorNode"
+      "nodeType": "UsernameCollectorNode",
+      "nodeVersion": "1.0"
     },
     {
       "_id": "1db869b1-09de-4a8e-b340-e0563891c3bf",
       "displayName": "Password Collector",
-      "nodeType": "PasswordCollectorNode"
+      "nodeType": "PasswordCollectorNode",
+      "nodeVersion": "1.0"
     }
   ],
   "pageDescription": {},
