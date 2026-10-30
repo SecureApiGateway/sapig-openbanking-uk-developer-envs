@@ -27,7 +27,7 @@
   },
   "remoteConsentRedirectUrl": {
     "inherited": false,
-    "value": "&{esv.sapig.ob.baseurl}/rcs/ui/consent"
+    "value": "&{esv.sapig.ob.rs.baseurl}/rcs/ui/consent"
   },
   "remoteConsentRequestEncryptionAlgorithm": {
     "inherited": false,
