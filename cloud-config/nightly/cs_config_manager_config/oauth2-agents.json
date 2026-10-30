@@ -32,7 +32,7 @@
             "value": "&{esv.sapig.ob.rcs.jwks}"
           },
           "remoteConsentRedirectUrl": {
-            "value": "&{esv.sapig.ob.baseurl}/rcs/ui/consent"
+            "value": "&{esv.sapig.ob.rs.baseurl}/rcs/ui/consent"
           }
         }
       }
