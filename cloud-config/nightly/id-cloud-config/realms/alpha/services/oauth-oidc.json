@@ -22,6 +22,7 @@
     "displayNameAttribute": "cn",
     "enableApplicationContext": false,
     "enableRichAuthorizationRequests": false,
+    "enforceMayActInTokenExchangeRequests": true,
     "expClaimRequiredInRequestObject": true,
     "grantTypes": [
       "implicit",
@@ -71,6 +72,7 @@
     "tlsClientCertificateChainValidationEnabled": false,
     "tlsClientCertificateHeaderFormat": "BASE64_ENCODED_CERT",
     "tlsClientCertificateTrustedHeader": "ssl-client-cert",
+    "tlsClientCertificateTrustedProxyAllowlist": [],
     "tokenCompressionEnabled": false,
     "tokenEncryptionEnabled": false,
     "tokenExchangeClasses": [
