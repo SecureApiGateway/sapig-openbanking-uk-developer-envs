@@ -23,7 +23,7 @@
   },
   "jwksUri": {
     "inherited": false,
-    "value": "&{esv.sapig.ob.trusteddirurl}/jwkms/testdirectory/jwks"
+    "value": "&{esv.sapig.ob.trusteddirurl}/api/directory/jwks"
   },
   "publicKeyLocation": {
     "inherited": false,
